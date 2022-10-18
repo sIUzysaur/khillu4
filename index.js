@@ -15,6 +15,8 @@ const quotes = {
     "- JUSTIN": '"I love you, I meant it."',
     "- aaliyah": '"You’re so pretty ate yana."',
     "- mara": '"I want cat food."',
+    "- tinnn": '"How’s your day, bb? I miss you so much!!"',
+    "- Justtiiinnnn": '"It’s okay to cry baby, It’s totally okay, take care always!!"',
  
 }
 
