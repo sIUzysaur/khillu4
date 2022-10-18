@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #AA5E64;
+  }
+
+  .main-container{
+    display: flex;
+  }
+
+
+  .wrapper {
+    margin-left: 10px;
+    margin-bottom: 1em;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: #f5edd1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 0;
+  }
+  
+  .lid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid transparent;
+    transform-origin: top;
+    transition: transform 0.25s linear;
+  }
+  
+  /* Lid when closed */
+  .lid.one {
+    border-top: 100px solid #ecdeb8;
+    transform: rotateX(0deg);
+    z-index: 3;
+    transition-delay: 0.75s;
+  }
+  
+  /* Lid when opened */
+  .lid.two {
+    border-top: 100px solid #ecdeb8;
+    transform: rotateX(90deg);
+    z-index: 1;
+    transition-delay: 0.5s;
+  }
+  
+  .envelope {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 100px solid transparent;
+    border-right: 150px solid #e6cfa7;
+    border-bottom: 100px solid #e6cfa7;
+    border-left: 150px solid #e6cfa7;
+    z-index: 3;
+  }
+  
+  .letter {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  
+  .letter a {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #3B4049;
+    
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: red;
+}
+
+  .wrapper:hover .lid.one {
+      transform: rotateX(90deg);
+      transition-delay: 0s;
+  }
+  
+  .wrapper:hover .lid.two {
+      transform: rotateX(180deg);
+      transition-delay: 0.25s;
+  }
+  
+  .wrapper:hover .letter {
+    transform: translateY(-50px);
+    transition-delay: 0.5s;
+  }
+  
