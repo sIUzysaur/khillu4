@@ -3,43 +3,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap');
-
 body{
     background: #AA5E64;
 }
-
-.container{
-    max-width: 1280px;
-    width: 100%;
-    height: 70vh;
-    margin:  0 auto;
-   
-}
-
-
 .box-wrapper{
-    
     background-color: white;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
     border-radius: 2%;
-    margin-top: 200px;
-    margin-left: 300px;
-    width: 600px;
-    height: 50vh;
-
+    height: 45vh;
+    margin-top: 150px;
 }
-
 h1{
+    padding-top: 0.8em;
+    padding-left: 0.9em;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 0.9em;
-    padding-left: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
 }
-
 p{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-weight: bold;
     text-align: justify;
-    font-size: 29px;
     padding-left: 1em;
     padding-right: 1em;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
 }
+
+@media(max-width:734px){
+    .box-wrapper{
+        height: 50vh;
+    }
+}
+
+@media(max-width:573px){
+    p{
+        font-size: 23px;
+    }
+}
+
+@media(max-width:512px){
+    .box-wrapper{
+        height: 55vh;
+    }
+}
+
+@media(max-width:451px),
+(max-width:456px),
+(max-width:443px){
+    .box-wrapper{
+        height: 63vh;
+    }
+}
+
+@media(max-width:437px){
+    p{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:400px),
+(max-width:414px){
+    .box-wrapper{
+        height: 65vh;
+    }
+}
+
+@media(max-width:392px),
+(max-width:349px){
+    .box-wrapper{
+        height: 75vh;
+    }
+}
+
+@media(max-width:330px){
+    p{
+        font-size: 21px;
+    }
+}
+
+@media(max-width:320px){
+    p{
+        font-size: 22px;
+    }
+
+    .box-wrapper{
+        height: 80vh;
+    }
+}
+
+
