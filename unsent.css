@@ -78,8 +78,10 @@ p{
 }
 @media(max-width:414px){
     p{
-        font-size: 20px;
+        font-size: 18px;
     }
+    
+    
 
    }
 
