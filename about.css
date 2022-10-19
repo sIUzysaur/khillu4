@@ -57,6 +57,7 @@ p{
     p{
         font-size: 23.5px;
     }
+    
 }
 
 @media(max-width:337px),
@@ -64,6 +65,12 @@ p{
 (max-width:345px){
     p{
         font-size: 22px;
+    }
+}
+
+@media(max-width: 360px){
+    .box-wrapper{
+        height: 65vh;
     }
 }
 
