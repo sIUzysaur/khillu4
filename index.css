@@ -120,3 +120,33 @@
     transition-delay: 0.5s;
   }
   
+ 
+  @media(max-width:926px){
+    .main-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+  }
+
+  @media(max-width:515px){
+    
+  }
+
+  @media(max-width:414px){
+    .main-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 35em;
+    }
+  }
+
+  @media(max-width:360px){
+    .main-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 43em;
+    }
+  }
