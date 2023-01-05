@@ -16,6 +16,7 @@ const quotes = {
     "- aaliyah": '"You’re so pretty ate yana."',
     "- mara": '"I want cat food."',
     "- tinnn": '"How’s your day, bb? I miss you so much!!"',
+    "- siuzy.yy": '"How’s your life so far love? take care always ha, i miss you so much, I love you."',
     "- Justtiiinnnn": '"It’s okay to cry baby, It’s totally okay, take care always!!"',
     "- Justtiiinnn": '"Don’t force someone to have time for you. You don’t need to beg for attention, assurance, consistency, and love. Always remember if they want, they will."',
  
